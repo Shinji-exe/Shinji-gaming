@@ -20,9 +20,9 @@ https://whimsical.com/shinji-gaming-Td5uZE8B9hhKwBnRKx4Ef8
 | -------- | ------------------------------------------ | -------- |
 | July 13  | Proposal Approval / Airtable Setup         | Incomplete |
 | July 14  | Component Creation / Get, Set, Delete Data | Incomplete |
-| July 15  | Oct. 12 cont'd / CSS Components            | Incomplete |
+| July 15  | July 14th cont'd / CSS Components          | Incomplete |
 | July 16  | CSS Components cont'd / MVP                | Incomplete |
-| July 17  | Advanced CSS                               | Incomplete |
+| July 17  | Advanced CSS and Clean up                  | Incomplete |
 | July 18  | Presentations                              | Incomplete |
 
 ## SWOT Analysis
