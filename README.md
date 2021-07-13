@@ -1,4 +1,5 @@
 
+
 # Shinji-gaming
 
 # Project Info
@@ -30,6 +31,7 @@ https://whimsical.com/shinji-gaming-Td5uZE8B9hhKwBnRKx4Ef8
 https://wireframe.cc/BI20oH
 ![wireframe]https://wireframe.cc/BI20oH
 ![Screenshot from 2021-07-13 09-48-51](https://user-images.githubusercontent.com/67288133/125465914-4bc484e1-4ef7-4967-82ce-957558264cff.png)
+![Screenshot from 2021-07-13 10-11-33](https://user-images.githubusercontent.com/67288133/125467261-1af3b792-6b98-4543-aea7-6179bcd80ae2.png)
 
 
 #### MVP
