@@ -8,7 +8,9 @@ Shinji-Gaming is a React and Airtable combination website that displays the info
 
 ## API and Data Sample
 https://airtable.com/tblCgKcBoOshjuCun/viwe1SdH7nf9O98pi?blocks=hide
-``"records": [
+
+```
+"records": [
         {
             "id": "recGxSkkfSlwsTGeC",
             "fields": {
@@ -21,8 +23,9 @@ https://airtable.com/tblCgKcBoOshjuCun/viwe1SdH7nf9O98pi?blocks=hide
                         "type": "image/png",
                         "thumbnails": {
                             "small": {
-                                "url": "https://dl.airtable.com/.attachmentThumbnails/db65e11dbe04f5b4ad6529d2e55d955a/08c874aa",
-                     ``
+                              "url": "https://dl.airtable.com/.attachmentThumbnails/db65e11dbe04f5b4ad6529d2e55d955a/08c874aa",
+                     
+```
 
 # Whimsical and Wireframe
 
