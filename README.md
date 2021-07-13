@@ -10,5 +10,38 @@ Shinji-Gaming is a React and Airtable combination website that displays the info
 https://whimsical.com/shinji-gaming-Td5uZE8B9hhKwBnRKx4Ef8
 ![Shinji-gaming](https://user-images.githubusercontent.com/67288133/125380327-0b3f5e80-e360-11eb-8d94-743a54496277.png)
 
+#### MVP
+
+- Get and post game information/history/images from Airtable.
+- Use forms to create and upload info and update Airtable.
+- Delete posts from the feed and airtable.
+
+| Day      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
+| July 13  | Proposal Approval / Airtable Setup         | Incomplete |
+| July 14  | Component Creation / Get, Set, Delete Data | Incomplete |
+| July 15  | Oct. 12 cont'd / CSS Components            | Incomplete |
+| July 16  | CSS Components cont'd / MVP                | Incomplete |
+| July 17  | Advanced CSS                               | Incomplete |
+| July 18  | Presentations                              | Incomplete |
+
+## SWOT Analysis
+
+### Strengths:
+
+
+
+### Weaknesses:
+
+
+
+### Opportunities:
+
+
+### Threats:
+
+
+
+
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
