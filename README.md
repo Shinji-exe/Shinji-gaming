@@ -46,7 +46,7 @@ https://wireframe.cc/BI20oH
 | July 14  | Component Creation / Get, Set, Delete Data | Incomplete |
 | July 15  | July 14th cont'd / CSS Components          | Incomplete |
 | July 16  | CSS Components cont'd / MVP                | Incomplete |
-| July 17  | Advanced CSS and Clean up                  | Incomplete |
+| July 17  | Advanced CSS/Media Quaries and Clean up    | Incomplete |
 | July 18  | Presentations                              | Incomplete |
 
 ## Timeframes
