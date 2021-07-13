@@ -28,18 +28,18 @@ https://whimsical.com/shinji-gaming-Td5uZE8B9hhKwBnRKx4Ef8
 ## SWOT Analysis
 
 ### Strengths:
-
+CSS and AXIOS.GET. I also have an understanding on what I want from this website and how to get information.
 
 
 ### Weaknesses:
-
+Still on the fence with CRUD to be honest
 
 
 ### Opportunities:
-
+Advance CSS
 
 ### Threats:
-
+Only myself.
 
 
 
