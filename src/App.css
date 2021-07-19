@@ -1,0 +1,305 @@
+
+.App {
+  text-align: center;
+}
+
+body{
+background-color: white;
+}
+
+ 
+
+/* .Background
+{
+width: 48%;
+margin: auto;
+overflow: hidden;
+}
+
+figure
+{
+display: flex;
+width: 100%;
+height: 500px;
+left: 0;
+border: 2px solid red;
+animation: 20s sliders infinite
+} */
+
+.Background{
+  overflow: hidden;
+}
+
+/* .Background .text {
+  background-color: chartreuse;
+} */
+
+
+
+.Background figure {
+  position: relative;
+  width: 500%;
+  animation: lefts 20s infinite;
+  margin: 0;
+  left: 0;
+}
+
+.Background figure img{
+  width: 20%; 
+  height: 720px;
+  float: left;
+  
+}
+
+/* .imag{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .imag img
+{
+  float: left;
+  width: 300px;
+  height: 300px;
+} */
+
+.together
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 4px;
+  background-color: darkgrey;
+}
+
+.first{
+  background-image: url("https://assets2.rockpapershotgun.com/steam-deck-arcade.jpg/BROK/resize/1920%3E/format/jpg/quality/80/steam-deck-arcade.jpg");
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 5px 4px rgb(8, 8, 8);
+
+}
+
+ .first h3{
+  background-color: rgba(19, 74, 177,0.6);
+  color: white;
+   margin: 0;
+   bottom: 0;
+   position: sticky;
+  
+}
+
+.first .move{
+   position: flex;
+  align-items: flex-end;
+   
+}
+
+
+
+.second{
+background-image: url("https://cdn.wccftech.com/wp-content/uploads/2021/06/WCCFstalker27.jpg");
+width: 400px;
+height: 400px;
+background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 5px 4px rgb(8, 8, 8);
+}
+
+.second h3{
+  background-color: rgba(230, 190, 16,.6);
+  color: white;
+  margin: 0;
+}
+
+.third{
+  background-image: url("https://cdn.wccftech.com/wp-content/uploads/2020/10/WCCFubisoft1.jpg");
+width: 400px;
+height: 400px;
+background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 5px 4px rgb(8, 8, 8);
+}
+
+.third h3{
+  background-color: rgba(122, 122, 122,.6);
+  color: white;
+  margin: 0;
+}
+
+.fourth{
+  background-image: url("https://imgix.kotaku.com.au/content/uploads/sites/3/2021/06/09/battlefield-2021-2.jpg?auto=format&fit=fill&q=65&w=1280");
+width: 400px;
+height: 400px;
+background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 5px 4px rgb(8, 8, 8);
+}
+
+.fourth h3{
+  background-color: rgba(6, 40, 143,.6);
+  color: white;
+  margin: 0;
+}
+
+footer
+{
+  background-color: black;
+  width: 100%;
+  height: 25px;
+  bottom: 0;
+  margin-top: 145px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+
+@media screen and (max-width: 650px){
+  .Background figure img{
+    width: 20%; 
+    height: 500px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .Background figure img{
+    width: 20%;
+    height: 300px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .first{
+    background-image: url("https://assets2.rockpapershotgun.com/steam-deck-arcade.jpg/BROK/resize/1920%3E/format/jpg/quality/80/steam-deck-arcade.jpg");
+    width: 350px;
+    height: 300px;
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    transition: 1s ease-in-out;
+  
+  }
+
+  .together{
+    display: block;
+  }
+  .second{
+    width: 350px;
+  }
+  .third{
+    width: 350px;
+  }
+  .fourth{
+    width: 350px;
+  }
+
+}
+
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes lefts
+{
+  0%
+  {
+    left: 0;
+    
+  }
+  
+  20%
+  {
+    left: 0;
+  }
+  25%
+  {
+    left: -100%;
+  }
+  45%
+  {
+    left: -100%;
+  }
+  50%
+  {
+    left: -200%;
+  }
+  70%
+  {
+    left: -200%;
+  }
+  75%
+  {
+    left: -300%;
+  }
+  95%
+  {
+    left: -300%;
+  }
+  100%
+  {
+    left: -400%;
+  }
+}
+
+
+.first:hover{
+  background-size:210%;
+}
+
+.second:hover{
+  background-size:210%;
+}
+
+.third:hover{
+  background-size:210%;
+}
+
+.fourth:hover{
+  background-size:210%;
+}
+
+h3:hover{
+  text-decoration: underline;
+}

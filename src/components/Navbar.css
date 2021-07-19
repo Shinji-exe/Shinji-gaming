@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+nav
+{
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    letter-spacing: 5px;
+   
+
+}
+
+nav h1{
+    background-color: black;
+    border-radius: 90px;
+    font-family: "Roboto";
+}
+/* nav .Shinji{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+ nav a{
+   text-decoration: none;
+   color: white;
+   padding: 4px;
+   transition: 2s ease-in-out;
+}
+nav a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+
+@media screen and (max-width: 650px) {
+    /* nav{
+     display: flex;
+     justify-content: center;
+    } */
+
+    .name{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+    }
+
+    .links{
+        display: flex;
+        justify-content: center ;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .navs{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .name{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 9px;
+    }
+
+    .links{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 8px;
+    }
+}
+
+.logo{
+    width: 45px;
+    margin-left: 70px;
+
+}
+
+a:nth-child(){
+
+}
