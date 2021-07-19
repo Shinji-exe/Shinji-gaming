@@ -13,7 +13,7 @@ function Blog(){
     const [topics, setTopics] = useState('')
     const [comments, setComments] = useState('')
     const [requests, setRequests] = useState([]);
-    const [toggle,setToggle] = useState(false)
+    // const [toggle,setToggle] = useState(false)
     const history = useHistory()
     //console.log(URL)
 
@@ -46,13 +46,14 @@ async function handleDelete(id,e) {
     e.preventDefault();
     const response = await axios.delete(`${blogURL}/${id}`, config)
     history.push("/blog")
+    console.log(response)
 }
 
     return(
         <div className="pad">
-        {requests.map((request)=>{
+        {requests.map((request,index)=>{
             return(
-                <div className="diff">
+                <div className="diff" key={index}>
                     <h3>{request.fields.names}</h3>
             
                 <h4>{request.fields.topics}</h4>

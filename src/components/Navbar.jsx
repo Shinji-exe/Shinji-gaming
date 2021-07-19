@@ -12,7 +12,7 @@ function Navbar(){
                     <h1>Shinji</h1>
                     </div>
                     <div className = "logo">
-                        <img className="logo" src = {photo1}/>
+                        <img className="logo" src = {photo1} alt=""/>
                     </div>
             <div className = "links">
             <Link to = "/Home">Home</Link>

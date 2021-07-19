@@ -2,7 +2,7 @@ import {useEffect, useState} from "react"
 import {Link} from "react-router-dom"
 import { config, historyURL } from "../services"
 import axios from "axios"
-import { drop } from "lodash"
+// import { drop } from "lodash"
 //${AIRTABLE_BASE}
 //${AIRTABLE_KEY
 //import { getDefaultNormalizer } from "@testing-library/react"
