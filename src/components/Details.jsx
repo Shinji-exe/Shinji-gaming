@@ -38,7 +38,7 @@ console.log(params.id)
     <p><em>{details?.fields.description}</em></p>
     <p>{details?.fields.origins}</p>
     <img src = {details?.fields.images} alt="image1"/>
-    <p>{details?.fields.description2}</p>
+    <p><em>{details?.fields.description2}</em></p>
     <p>{details?.fields.origins2}</p>
     <img src = {details?.fields.image2} alt="image2"/>
 

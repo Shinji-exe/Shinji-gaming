@@ -5,7 +5,8 @@ import Popular from './components/Popular';
 import History from "./components/History"
 import Blog from "./components/Blog";
 import Details from "./components/Details"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import {Route} from "react-router-dom";
 
 
@@ -32,7 +33,7 @@ function App() {
       
       </figure>
       </div> 
-      <Route exact path = "/">
+      <Route exact path = "/Home">
         
         </Route>
         <Route path ="/Home">
@@ -80,7 +81,11 @@ function App() {
              Blog
              <Blog/>
           </Route>
-        <footer></footer>
+        <footer>
+          <p>@copy Shinji</p>
+        <FontAwesomeIcon className="github" icon={faGithub} size="lg"/>
+        <FontAwesomeIcon className="Linkedin" icon={faLinkedin} size = "lg"/>
+        </footer>
     </div>
   );
 }
