@@ -37,10 +37,7 @@ nav a:hover{
 }
 
 @media screen and (max-width: 650px) {
-    /* nav{
-     display: flex;
-     justify-content: center;
-    } */
+    
 
     .name{
 display: flex;
@@ -58,7 +55,7 @@ align-items: flex-end;
 @media screen and (max-width: 360px){
     .navs{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-around;
     }
     .name{
         display: flex;
@@ -74,11 +71,7 @@ align-items: flex-end;
     }
 }
 
-.logo{
-    width: 45px;
-    margin-left: 70px;
 
-}
 
 a:nth-child(){
 

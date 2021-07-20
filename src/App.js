@@ -52,7 +52,7 @@ function App() {
           </div>
 
           <div className = "third">
-          <h3>Ubisoft faces backlash from fans and investors</h3>
+          <h3>Ubisoft faces backlash from fans due to Tom Clancy's XDefiant</h3>
           </div>
 
           <div className = "fourth">
