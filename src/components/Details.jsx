@@ -2,6 +2,9 @@ import axios from "axios"
 import React from "react"
 import {useState, useEffect} from "react"
 import {useParams} from "react-router-dom"
+// import '~video-react/dist/video-react.css';
+// import { Player } from 'video-react';
+import ReactPlayer from 'react-player'
 import "./Details.css"
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
  const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
@@ -40,6 +43,10 @@ console.log(params.id)
     <p><em>{details?.fields.description2}</em></p>
     <p>{details?.fields.origins2}</p>
     <img src = {details?.fields.image2} alt="image2"/>
+    <div className = "video">
+    <ReactPlayer url = {details?.fields.vids}/>
+    </div>
+    
      <p>{details?.fields.webs}</p>
     
 </div>
