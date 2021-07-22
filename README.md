@@ -46,12 +46,12 @@ https://wireframe.cc/BI20oH
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| July 13  | Proposal Approval / Airtable Setup         | Incomplete |
-| July 14  | Component Creation / Get, Set, Delete Data | Incomplete |
-| July 15  | July 14th cont'd / CSS Components          | Incomplete |
-| July 16  | CSS Components cont'd / MVP                | Incomplete |
-| July 17  | Advanced CSS/Media Quaries and Clean up    | Incomplete |
-| July 18  | Presentations                              | Incomplete |
+| July 13  | Proposal Approval / Airtable Setup         | complete |
+| July 14  | Component Creation / Get, Set, Delete Data | complete |
+| July 15  | July 14th cont'd / CSS Components          | complete |
+| July 16  | CSS Components cont'd / MVP                | complete |
+| July 17  | Advanced CSS/Media Quaries and Clean up    | complete |
+| July 18  | Presentations                              | complete |
 
 ## Timeframes
 
